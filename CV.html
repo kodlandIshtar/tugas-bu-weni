@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- Menyatakan bahwa dokumen ini Menggunakan standar HTML5 -->
+<html lang="id">
+<head>
+    <!-- Mengatur enkodasi karakter agar mendukung semua huruf dan simbol -->
+    <meta charset="UTF-8">
+    
+    <!-- Mengatur agar tampilan web otomatis menyesuaikan lebar layar HP / Laptop -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Judul tab pada web browser (UBAH SESUAI NAMAMU) -->
+    <title>Portofolio - M.Ishtar</title>
+
+    <!-- Tempat penulisan CSS (Internal CSS) -->
+    <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+
+    <!-- ========================================================= -->
+    <!-- ELEMEN 1: HEADER & NAVIGASI                               -->
+    <!-- ========================================================= -->
+    <header>
+        <!-- EDIT SISWA: Ganti nama/logo kamu di bawah ini -->
+        <a href="c:\Users\ruhqu\OneDrive\Gambar\foto ishtar.jpeg" class="logo">Star.Dev</a>
+        
+        <!-- Menu Navigasi -->
+        <nav>
+            <ul>
+                <!-- href="#id" berfungsi untuk melompat langsung ke bagian ID tertentu -->
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#keahlian">Keahlian</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ========================================================= -->
+    <!-- ELEMEN 2: HERO SECTION (PROFIL UTAMA)                     -->
+    <!-- ========================================================= -->
+    <section class="hero">
+        <!-- EDIT SISWA: Ganti atribut src dengan Link Foto Profil atau nama file foto kamu -->
+        <img src="c:\Users\ruhqu\OneDrive\Gambar\foto ishtar.jpeg" alt="Foto Profil Star" class="hero-img">
+        
+        <div class="hero-text">
+            <!-- EDIT SISWA: Ganti Nama Kamu -->
+            <h1>Halo, Saya M. Ishtar Zehava R.Z</h1>
+            
+            <!-- EDIT SISWA: Ganti Jurusan / Kelas Kamu -->
+            <h3>Siswa XI RPL 1 - Web Developer Pemula</h3>
+            
+            <!-- EDIT SISWA: Tulis deskripsi singkat tentang dirimu -->
+            <p>Saya adalah seorang siswa SMK yang tertarik dengan dunia pemrograman web, desain antarmuka, dan teknologi terbaru.</p>
+            
+            <!-- Tombol aksi hubungi -->
+            <a href="ruhqusth2010@gmail.com" class="btn-primary">Hubungi Saya</a>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- ELEMEN 3: SEKSI TENTANG SAYA                              -->
+    <!-- ========================================================= -->
+    <section class="container" id="tentang">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="about-card">
+            <!-- EDIT SISWA: Tulis cerita/biodata singkatmu di sini -->
+            <p>Saat ini saya sedang menempuh pendidikan di SMK Telkom Bandung Jurusan Rekayasa Perangkat Lunak (RPL). Saya memiliki minat yang besar pada pembuatan tampilan website yang bersih, responsif, dan mudah digunakan. Cita-cita saya adalah menjadi seorang Full-Stack Web Developer profesional.</p>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- ELEMEN 4: SEKSI KEAHLIAN / SKILLS                         -->
+    <!-- ========================================================= -->
+    <section class="container" id="keahlian">
+        <h2 class="section-title">Keahlian Saya</h2>
+        <div class="skills-grid">
+            <!-- EDIT SISWA: Tambah, ubah, atau hapus keahlian kamu di bawah ini -->
+            <div class="skill-item">HTML 5 & CSS 3</div>
+            <div class="skill-item">Desain Responsif</div>
+            <div class="skill-item">Basic JavaScript</div>
+            <div class="skill-item">Git & GitHub</div>
+            <div class="skill-item">UI/UX Design</div>
+            <div class="skill-item">Troubleshooting PC</div>
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- ELEMEN 5: SEKSI PROYEK / PORTOFOLIO                       -->
+    <!-- ========================================================= -->
+    <section class="container" id="proyek">
+        <h2 class="section-title">Proyek Saya</h2>
+        <div class="projects-grid">
+            
+            <!-- Kartu Proyek 1 -->
+            <div class="project-card">
+                <!-- EDIT SISWA: Kategori Proyek -->
+                <span class="project-badge">Tugas Web</span>
+                <!-- EDIT SISWA: Judul Proyek -->
+                <h3>Website Toko Online Sederhana</h3>
+                <!-- EDIT SISWA: Deskripsi Proyek -->
+                <p>Membuat tata letak katalog produk toko online menggunakan HTML 5 dan CSS 3 Grid pada tugas praktikum modul 2.</p>
+            </div>
+
+            <!-- Kartu Proyek 2 -->
+            <div class="project-card">
+                <span class="project-badge">Latihan</span>
+                <h3>Halaman Form Login Responsif</h3>
+                <p>Mendesain tampilan form login dan registrasi siswa yang rapi dan dapat dibuka dengan baik melalui smartphone.</p>
+            </div>
+
+            <!-- Kartu Proyek 3 -->
+            <div class="project-card">
+                <span class="project-badge">Desain</span>
+                <h3>Redesain Web Sekolah</h3>
+                <p>Membuat mock-up dan tampilan depan website profil sekolah menggunakan kombinasi warna modern.</p>
+            </div>
+
+            <!-- Kartu Proyek 4 -->
+            <div class="project-card">
+                <span class="project-badge">Personal</span>
+                <h3>Website Portofolio Diri</h3>
+                <p>Proyek pembuatan portofolio pribadi pertama menggunakan penerapan CSS Box Model dan Flexbox.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- ELEMEN 6: FOOTER / HAK CIPTA                             -->
+    <!-- ========================================================= -->
+    <footer>
+        <!-- EDIT SISWA: Ganti Tahun dan Nama Kamu -->
+        <p>&copy; 2026 M. Ishtar Zehava R.Z - Dibuat untuk Tugas Pemrograman Web Kelas XI SMK</p>
+    </footer>
+
+</body>
+</html>
